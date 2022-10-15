@@ -3,9 +3,19 @@ import './Header.css'
 
 const Header = (props) => {
 	const [modal, setModal] = useState(false)
+	const [top, setTop] = useState('auto')
 
 	const toggleModal = () => {
 		setModal(!modal)
+	}
+
+	window.onscroll = function (ev) {
+		if (window.scrollY > 0) {
+			setTop(0)
+		} else {
+			setTop('auto')
+		}
+		setTimeout(() => {}, 1000)
 	}
 
 	return (
@@ -25,7 +35,7 @@ const Header = (props) => {
 					</a>
 				</div>
 			</div>
-			<div className='header'>
+			<div className='header' style={{ top: top }}>
 				<div>
 					<p className='title'>David Hormiga Afonso</p>
 				</div>
