@@ -5,5 +5,6 @@ yarn build
 git push origin develop
 git checkout master
 git fetch --all
-git checkout origin/develop -- src/build
+git checkout origin/develop -- src/build/
+git push origin master
 git checkout develop
