@@ -6,4 +6,4 @@ git add .
 git commit -m "deploy"
 git push origin develop
 cd ".."
-cd "Programacion\deploy-personal-website"
+cd ".\Programacion\deploy-personal-website"
