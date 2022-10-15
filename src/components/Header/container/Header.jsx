@@ -15,7 +15,7 @@ const Header = (props) => {
 					<p>📍 Spain, Working remote</p>
 					<a href='mailto:davidhormigafonso@gmail.com'>✉️ davidhormigafonso@gmail.com</a>
 				</div>
-				<div className='social'>
+				<div className='social' style={{ display: 'flex', alignItems: 'center' }}>
 					<a href='https://twitter.com/davidhafo' target='_blank' rel='noreferrer'>
 						<img
 							alt='twitter logo'
