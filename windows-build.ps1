@@ -1,5 +1,3 @@
-cd d:
-cd "D:\Programación\personal-website"
 git checkout develop
 git pull origin develop
 yarn
@@ -7,8 +5,7 @@ yarn build
 git add .
 git commit -m "deploy"
 git push origin develop
-cd d:
-cd "D:\Programación\deploy-personal-website"
+cd "Programacion\deploy-personal-website"
 git pull origin master
 git rm -r *
 git fetch --all
@@ -17,6 +14,5 @@ git mv (gci build/*) .
 git add .
 git commit -m "deploy"
 git push origin master
-cd d:
-cd "D:\Programación\personal-website"
+cd "Programacion\personal-website"
 git checkout develop
