@@ -1,4 +1,3 @@
-#!/bin/bash
 cd d:
 cd "D:\Programación\personal-website"
 git checkout develop
@@ -18,6 +17,6 @@ git mv (gci build/*) .
 git add .
 git commit -m "deploy"
 git push origin master
-d:
+cd d:
 cd "D:\Programación\personal-website"
 git checkout develop
