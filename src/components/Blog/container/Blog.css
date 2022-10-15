@@ -11,6 +11,7 @@
 	box-shadow: 0 8px 8px 3px rgba(0, 0, 0, 0.2);
 	width: 30%;
 	height: 600px;
+	border-radius: 20px;
 }
 
 .blogPostUrl > img {
@@ -18,6 +19,7 @@
 	height: 320px;
 	width: 100%;
 	object-fit: cover;
+	border-radius: 20px 20px 0 0;
 }
 
 .blogPostUrl {
@@ -36,4 +38,16 @@
 	font-family: 'Hanuman', serif;
 	font-size: 1.5rem;
 	margin-top: 30px;
+}
+
+@media screen and (max-width: 1290px) {
+	.blogPostDiv {
+		width: 45%;
+	}
+}
+
+@media screen and (max-width: 850px) {
+	.blogPostDiv {
+		width: 95%;
+	}
 }
