@@ -3,6 +3,7 @@ git checkout develop
 git pull origin develop
 git add .
 git commit -m "deploy"
+yarn
 yarn build
 git push origin develop
 git checkout master
