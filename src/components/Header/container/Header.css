@@ -1,0 +1,158 @@
+.header {
+	height: 81px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.title {
+	margin: 0;
+	padding: 0;
+	color: #040404;
+	font-family: 'Hanuman', serif;
+	font-size: 20px;
+	font-weight: 700;
+	margin-left: 36px;
+}
+
+.menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu a,
+.mobileMenu a {
+	padding: 0 5px;
+	font-family: 'Open Sans', serif;
+	font-size: 16px;
+	color: #444;
+	font-weight: 600;
+}
+
+.menu .contact {
+	background-color: #000;
+	color: white;
+	overflow-wrap: break-word;
+	word-break: normal;
+	padding: 8px 20px 8px 20px !important;
+	border-radius: 50px;
+	box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+	margin: 0 30px 0 10px;
+	transition: all 300ms;
+}
+
+.menu .contact:hover {
+	filter: brightness(90%) !important;
+	cursor: pointer;
+}
+
+.burger,
+.fixedBackground {
+	opacity: 0;
+}
+
+.mobileMenu {
+	display: none;
+}
+
+.annoucementBar {
+	max-height: 45px;
+	background-color: #000;
+	color: #fff;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 12px 20px;
+}
+
+.contact {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+}
+
+.contact > p,
+a {
+	color: white;
+	text-decoration: none;
+	font-family: 'Open Sans', serif;
+	font-size: 0.85rem;
+}
+
+@media screen and (max-width: 615px) {
+	.menu {
+		display: none;
+	}
+	.burger {
+		display: flex;
+		opacity: 1;
+		flex-direction: column;
+		width: 3rem;
+		height: 3rem;
+		border: 0;
+		background-color: transparent;
+		gap: 0.65rem;
+		margin-right: 30px;
+		justify-content: center;
+	}
+	.burger > div {
+		background-color: black;
+		height: 2px;
+		width: 100%;
+		border-radius: 5px;
+		transition: all 0.5s;
+		transform-origin: left;
+	}
+	.burger-open div:first-child {
+		transform: rotate(45deg);
+	}
+
+	.burger-open div:nth-child(2) {
+		opacity: 0;
+	}
+
+	.burger-open div:last-child {
+		transform: rotate(-45deg);
+	}
+
+	.fixedBackground {
+		background-color: rgba(0, 0, 0, 0.3);
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		transition: all 0.5s linear;
+		z-index: 999;
+	}
+
+	.showFixed {
+		visibility: visible;
+		opacity: 1;
+	}
+
+	.hideFixed {
+		visibility: hidden;
+		opacity: 0;
+	}
+
+	.mobileMenu {
+		display: block;
+		border-top: 1px solid #ccc;
+		background-color: #fff;
+		box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+		width: 50%;
+		height: 100vh;
+		display: flex;
+		position: absolute;
+		align-items: center;
+		flex-direction: column;
+		right: 0;
+		gap: 0.65rem;
+		padding: 20px 0;
+	}
+}
