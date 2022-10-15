@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 cd d:
 cd "D:\Programación\personal-website"
 git checkout develop
