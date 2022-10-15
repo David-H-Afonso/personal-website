@@ -81,7 +81,7 @@
 }
 
 .contact > p,
-a {
+.contact > a {
 	color: white;
 	text-decoration: none;
 	font-family: 'Open Sans', serif;
@@ -89,10 +89,9 @@ a {
 }
 
 @media screen and (max-width: 650px) {
-	.annoucementBar {
-		display: none;
-	}
-	.menu {
+	.menu,
+	.topMargin,
+	.annoucementBar div p:first-child {
 		display: none;
 	}
 	.burger {

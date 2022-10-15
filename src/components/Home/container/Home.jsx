@@ -19,7 +19,6 @@ const Home = (props) => {
 							<cite>"It is not enough for code to just work"</cite>
 							<p>Robert C. Martin, Clean Code</p>
 						</div>
-						<a></a>
 					</div>
 				</div>
 			</div>

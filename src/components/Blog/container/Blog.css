@@ -1,0 +1,39 @@
+.blogPostWrapper {
+	display: flex;
+	padding-top: 142px;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 2.8rem;
+}
+
+.blogPostDiv {
+	box-shadow: 0 8px 8px 3px rgba(0, 0, 0, 0.2);
+	width: 30%;
+	height: 600px;
+}
+
+.blogPostUrl > img {
+	max-width: 100%;
+	height: 320px;
+	width: 100%;
+	object-fit: cover;
+}
+
+.blogPostUrl {
+	display: block;
+	text-decoration: none;
+	color: black;
+}
+
+.blogPostMeta {
+	padding: 0 30px;
+	font-family: 'Open Sans', serif;
+	font-size: 0.95rem;
+}
+
+.blogPostMeta h1 {
+	font-family: 'Hanuman', serif;
+	font-size: 1.5rem;
+	margin-top: 30px;
+}
