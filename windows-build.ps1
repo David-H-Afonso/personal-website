@@ -8,6 +8,7 @@ git push origin develop
 cd ".."
 cd "D:\Programacion\deploy-personal-website"
 git pull origin master
+git stash
 git rm -r *
 git fetch --all
 git checkout origin/develop -- build/
