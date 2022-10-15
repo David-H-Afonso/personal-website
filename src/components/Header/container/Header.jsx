@@ -50,8 +50,8 @@ const Header = (props) => {
 			</div>
 			<div className={modal ? 'showFixed fixedBackground' : 'hideFixed fixedBackground'}>
 				<div className='mobileMenu'>
-					<a>Home</a>
-					<a>Blog</a>
+					<a href='/'>Home</a>
+					<a href='/blog'>Blog</a>
 					<a>Portfolio</a>
 					<a className='contact'>Contact me</a>
 				</div>
