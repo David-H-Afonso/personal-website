@@ -3,8 +3,8 @@ import { createBrowserRouter } from 'react-router-dom'
 import Home from './components/Home/container/Home'
 import Blog from './components/Blog/container/Blog'
 
-import VariablesJS from './components/BlogPosts/VariablesJS/VariablesJS'
-import HelloWorld from './components/BlogPosts/HelloWorld/HelloWorld'
+import VariablesJS, { postVariablesJS } from './components/BlogPosts/VariablesJS/VariablesJS'
+import HelloWorld, { postHelloWorld } from './components/BlogPosts/HelloWorld/HelloWorld'
 
 export default createBrowserRouter([
 	{
@@ -16,11 +16,11 @@ export default createBrowserRouter([
 		element: <Blog />,
 	},
 	{
-		path: '/blog/variables-in-javascript',
+		path: postVariablesJS.url,
 		element: <VariablesJS />,
 	},
 	{
-		path: '/blog/hello-world',
+		path: postHelloWorld.url,
 		element: <HelloWorld />,
 	},
 ])

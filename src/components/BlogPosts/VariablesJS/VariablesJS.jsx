@@ -1,4 +1,5 @@
 import React from 'react'
+
 const VariablesJS = (props) => {
 	return (
 		<div style={{ marginTop: 140, paddingLeft: 36 }}>
