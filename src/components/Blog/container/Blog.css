@@ -1,6 +1,6 @@
 .blogPostWrapper {
 	display: flex;
-	padding-top: 142px;
+	margin-top: 142px;
 	align-items: center;
 	justify-content: center;
 	flex-wrap: wrap;

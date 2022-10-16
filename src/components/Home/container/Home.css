@@ -62,6 +62,9 @@
 }
 
 @media screen and (max-width: 715px) {
+	.wrapper {
+		margin-top: 126px !important;
+	}
 	.wrapper > div > div {
 		margin-left: 1rem;
 	}
