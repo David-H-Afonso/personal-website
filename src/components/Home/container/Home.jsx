@@ -1,6 +1,9 @@
 import React from 'react'
 import './Home.css'
 
+import BlogPosts from '../../BlogPosts/index'
+import { Post } from '../../elements'
+
 import homeBackground from '../../../assets/homeBackground.jpg'
 
 const Home = (props) => {
@@ -20,6 +23,17 @@ const Home = (props) => {
 							<p>Robert C. Martin, Clean Code</p>
 						</div>
 					</div>
+				</div>
+			</div>
+			<div>
+				<div className='lastBlogMeta'>
+					<h2>Lastest Blog Posts</h2>
+					<p>Discover a lot of interesting topic here!</p>
+				</div>
+				<div className='posts'>
+					{BlogPosts.slice(-3).map((post) => (
+						<Post post={post} defaultImg={homeBackground} />
+					))}
 				</div>
 			</div>
 		</>

@@ -61,6 +61,30 @@
 	font-weight: bold;
 }
 
+.lastBlogMeta {
+	padding: 20px 0px;
+	text-align: center;
+}
+
+.lastBlogMeta h2 {
+	font-size: 1.825rem;
+	font-family: 'Hanuman', serif;
+}
+
+.lastBlogMeta p {
+	font-family: 'Open Sans', serif;
+	font-size: 1.125rem;
+	margin-top: -10px;
+}
+
+.posts {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 2.8rem;
+}
+
 @media screen and (max-width: 715px) {
 	.wrapper {
 		margin-top: 126px !important;
