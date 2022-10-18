@@ -6,7 +6,7 @@ git add .
 git commit -m "deploy"
 git push origin develop
 cd ".."
-cd "D:\Programacion\deploy-personal-website"
+cd "D:\Programacion\personal-website\deploy-personal-website"
 git pull origin master
 git stash
 git rm -r *
@@ -17,5 +17,5 @@ git add .
 git commit -m "deploy"
 git push origin master
 cd ".."
-cd "D:\Programacion\personal-website"
+cd "D:\Programacion\personal-website\personal-website"
 git checkout develop
