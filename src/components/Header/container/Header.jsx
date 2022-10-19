@@ -31,7 +31,7 @@ const Header = (props) => {
 				</div>
 				<div className='header' style={{ top: top }}>
 					<div>
-						<p className='title'>David Hormiga Afonso</p>
+						<p className='titleHeader'>David Hormiga Afonso</p>
 					</div>
 					<button
 						className={modal ? 'burger-open burger' : 'burger-close burger'}

@@ -9,7 +9,7 @@ import homeBackground from '../../../assets/homeBackground.jpg'
 const Home = (props) => {
 	return (
 		<>
-			<div className='wrapper'>
+			<div className='wrapperHome'>
 				<span></span>
 				<img src={homeBackground} alt='homeBackground' />
 				<div>

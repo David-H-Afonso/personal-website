@@ -1,11 +1,11 @@
-.wrapper {
+.wrapperHome {
 	width: 100%;
 	height: 803px;
 	position: relative;
 	margin-top: 140px;
 }
 
-.wrapper > span {
+.wrapperHome > span {
 	background: rgba(0, 0, 0, 0.4);
 	width: 100%;
 	height: 100%;
@@ -14,7 +14,7 @@
 	height: 803px;
 }
 
-.wrapper > img {
+.wrapperHome > img {
 	object-fit: cover;
 	width: 100%;
 	height: 100%;
@@ -22,7 +22,7 @@
 	height: 803px;
 }
 
-.wrapper > div {
+.wrapperHome > div {
 	position: absolute;
 	width: 100%;
 	height: 803px;
@@ -33,29 +33,29 @@
 	align-items: flex-start;
 }
 
-.wrapper > div > div {
+.wrapperHome > div > div {
 	color: white;
 	margin-left: 5rem;
 	text-shadow: 2px 2px rgba(0, 0, 0, 0.4);
 }
 
-.wrapper > div > div > h6 {
+.wrapperHome > div > div > h6 {
 	font-size: 1.3rem;
 	font-family: 'Hanuman', serif;
 	margin-bottom: -15px;
 }
 
-.wrapper > div > div > h1 {
+.wrapperHome > div > div > h1 {
 	font-size: 2.625rem;
 	font-family: 'Hanuman', serif;
 }
 
-.wrapper > div > div > div > cite {
+.wrapperHome > div > div > div > cite {
 	font-family: 'Open Sans', serif;
 	font-size: 1.125rem;
 }
 
-.wrapper > div > div > div > p {
+.wrapperHome > div > div > div > p {
 	font-family: 'Open Sans', serif;
 	font-size: 0.9rem;
 	font-weight: bold;
@@ -86,10 +86,10 @@
 }
 
 @media screen and (max-width: 715px) {
-	.wrapper {
+	.wrapperHome {
 		margin-top: 126px !important;
 	}
-	.wrapper > div > div {
+	.wrapperHome > div > div {
 		margin-left: 1rem;
 	}
 }
