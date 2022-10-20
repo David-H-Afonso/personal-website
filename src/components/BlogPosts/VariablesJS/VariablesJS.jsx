@@ -31,7 +31,7 @@ const VariablesJS = (props) => {
 				<VariableName>&nbsp;&nbsp;&nbsp;&nbsp;font-family</VariableName>:
 				<StringCode>'Consolas'</StringCode>; <br />
 				<VariableName>&nbsp;&nbsp;&nbsp;&nbsp;letter-spacing</VariableName>:
-				<CssNumber>0.5px</CssNumber>; <br />
+				<CssNumber>&nbsp;0.5px</CssNumber>; <br />
 				<SymbolsFuncitons>&#125;</SymbolsFuncitons>
 			</Code>
 		</BaseBlog>
