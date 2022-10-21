@@ -17,5 +17,5 @@ git add .
 git commit -m "deploy"
 git push origin master
 cd ".."
-cd "C:\Programacion\personal-website\personal-website"
+cd "C:\Programacion\personal-website\personal-website\"
 git checkout develop
