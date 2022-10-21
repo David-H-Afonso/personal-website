@@ -17,5 +17,5 @@ git add .
 git commit -m "deploy"
 git push origin master
 Set-Location ".."
-Set-Location "C:\Programacion\personal-website\personal-website\"
+Set-Location "personal-website\"
 git checkout develop
