@@ -23,7 +23,7 @@ const VariablesJS = (props) => {
 				<Variable>let</Variable> <VariableName>foo</VariableName> = 1 <br />
 				<Variable>const</Variable> <VariableNameConstant>foo</VariableNameConstant> = 1 <br />
 				<br />
-				<Comment>Probando el nuevo componente de código poniendo css aquí</Comment>
+				<Comment>Probando el nuevo componente de código poniendo css aqui</Comment>
 				<br />
 				<SymbolsFuncitons>.codeComponent</SymbolsFuncitons>
 				<SymbolsFuncitons> &#123; </SymbolsFuncitons>
