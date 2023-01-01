@@ -5,6 +5,7 @@ import Blog from './components/Blog/container/Blog'
 
 import VariablesJS, { postVariablesJS } from './components/BlogPosts/VariablesJS/VariablesJS'
 import HelloWorld, { postHelloWorld } from './components/BlogPosts/HelloWorld/HelloWorld'
+import NpmYarn, { postNpmYarn } from './components/BlogPosts/01-yarn-npm/01-yarn-npm'
 
 export default createBrowserRouter([
 	{
@@ -22,5 +23,9 @@ export default createBrowserRouter([
 	{
 		path: postHelloWorld.url,
 		element: <HelloWorld />,
+	},
+	{
+		path: postNpmYarn.url,
+		element: <NpmYarn />,
 	},
 ])
