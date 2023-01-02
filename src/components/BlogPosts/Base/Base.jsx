@@ -3,12 +3,12 @@ import './Base.css'
 import defaultImage from './defaultImage.jpg'
 
 const BaseBlog = (props) => {
-	const { postInfo, children } = props
+	const { postInfo, customTitle, children } = props
 
 	return (
 		<div className='wrapperBaseBlog'>
 			<div className='titleBaseBlog'>
-				<h1>{postInfo.title}</h1>
+				<h1>{customTitle ? customTitle : postInfo.title}</h1>
 			</div>
 			{postInfo.excerpt ? <h2 className='quoteBaseBlog'>❝ {postInfo.excerpt} ❞</h2> : null}
 			<div className='authorAndDate'>
