@@ -9,7 +9,7 @@ export const Post = (props) => {
 			<a className='blogPostUrl' href={post.url}>
 				<img src={post.image ? post.image : defaultImg} alt={post.title} />
 				<div className='blogPostMeta'>
-					<h1>{post.title}</h1>
+					<p className='title'>{post.title}</p>
 					<p>{post.excerpt}</p>
 					<p>
 						{post.date} - {post.author}

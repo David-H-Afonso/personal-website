@@ -25,10 +25,11 @@
 	font-size: 0.95rem;
 }
 
-.blogPostMeta h1 {
+.blogPostMeta .title {
 	font-family: 'Hanuman', serif;
 	font-size: 1.5rem;
 	margin-top: 30px;
+	font-weight: bold;
 }
 
 @media screen and (max-width: 1290px) {
