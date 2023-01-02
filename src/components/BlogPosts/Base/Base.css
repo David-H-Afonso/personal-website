@@ -27,7 +27,7 @@
 }
 
 .childrenBaseBlog {
-	max-width: 1200px;
+	max-width: 940px;
 	display: flex;
 	align-items: flex-start;
 	width: 90%;
@@ -37,6 +37,18 @@
 	flex-wrap: wrap;
 	flex-direction: column;
 	font-family: 'Open Sans';
+}
+
+.childrenBaseBlog > p {
+	font-size: 1.2rem;
+}
+
+.childrenBaseBlog > h3 {
+	font-size: 1.5rem;
+}
+
+.childrenBaseBlog > h2 {
+	font-size: 2rem;
 }
 
 .authorAndDate {
@@ -53,7 +65,7 @@
 }
 
 .imageBaseBlog {
-	max-width: 1200px;
+	max-width: 940px;
 	width: 90%;
 	display: flex;
 	justify-content: center;
@@ -63,4 +75,10 @@
 
 .imageBaseBlog > img {
 	width: 100%;
+}
+
+.wrapperBaseBlog a {
+	text-decoration: none;
+	color: #3a8dde;
+	font-weight: bolder;
 }
