@@ -10,8 +10,7 @@ const AsyncAwait = () => {
 				I'm guessing that, at this point, you've probably heard about <strong>promises and async/await</strong> in{' '}
 				<strong>JavaScript</strong>. If you have not, don't worry – they're not as complicated as they might seem at
 				first. In fact, they're two of the most powerful tools you have at your disposal for managing{' '}
-				<strong>asynchronous</strong>
-				operations in your code.
+				<strong>asynchronous</strong> operations in your code.
 			</p>
 			<p>
 				So, what exactly are these exactly? Let's start with <strong>promises</strong>. Essentially, a promise is an{' '}
