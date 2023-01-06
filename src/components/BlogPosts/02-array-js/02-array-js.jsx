@@ -73,7 +73,7 @@ export const postArrayJS = {
 	date: '03/01/2023',
 	author: 'David Hormiga Afonso',
 	image: require('./02-array-js.jpg'),
-	categories: ['javascript', 'programación', 'interés'],
+	categories: ['js'],
 }
 
 export default ArrayJS

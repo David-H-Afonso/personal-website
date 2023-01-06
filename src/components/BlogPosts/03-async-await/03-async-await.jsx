@@ -63,7 +63,7 @@ export const postAsyncAwait = {
 	date: '05/01/2023',
 	author: 'David Hormiga Afonso',
 	image: require('./03-async-await.jpg'),
-	categories: ['javascript', 'programación', 'interés'],
+	categories: ['js'],
 }
 
 export default AsyncAwait

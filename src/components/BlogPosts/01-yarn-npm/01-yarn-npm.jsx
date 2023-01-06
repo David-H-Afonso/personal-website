@@ -75,7 +75,7 @@ export const postNpmYarn = {
 	date: '01/01/2023',
 	author: 'David Hormiga Afonso',
 	image: require('./01-yarn-npm.png'),
-	categories: ['javascript', 'programación', 'interés'],
+	categories: ['node', 'js'],
 }
 
 export default NpmYarn
