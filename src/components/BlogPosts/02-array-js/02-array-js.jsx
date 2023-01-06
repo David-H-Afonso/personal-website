@@ -70,7 +70,7 @@ export const postArrayJS = {
 	title: 'Array in JavaScript',
 	excerpt: 'JavaScript 101: A Quick Intro to Storing and Manipulating Data',
 	url: '/blog/array-js',
-	date: '01/01/2023',
+	date: '03/01/2023',
 	author: 'David Hormiga Afonso',
 	image: require('./02-array-js.jpg'),
 	categories: ['javascript', 'programación', 'interés'],
