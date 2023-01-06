@@ -77,6 +77,12 @@
 	margin-top: -10px;
 }
 
+.lastBlogMeta a {
+	text-decoration: none;
+	color: #3a8dde;
+	font-weight: bolder;
+}
+
 .posts {
 	display: flex;
 	align-items: center;

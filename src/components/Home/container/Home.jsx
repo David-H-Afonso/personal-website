@@ -31,11 +31,16 @@ const Home = (props) => {
 					<p>Discover a lot of interesting topic here!</p>
 				</div>
 				<div className='posts'>
-					{
-						BlogPosts.slice(-3).map((post) => (
-							<Post post={post} defaultImg={homeBackground} />
-						)) // TODO: Fix sorting issue
-					}
+					{BlogPosts.slice(-6)
+						.reverse()
+						.map((post) => (
+							<Post post={post} defaultImg={homeBackground} key={post.title} />
+						))}
+				</div>
+				<div className='lastBlogMeta'>
+					<h2>
+						Check out all my posts <a href='/blog'>here</a>
+					</h2>
 				</div>
 			</div>
 		</>
