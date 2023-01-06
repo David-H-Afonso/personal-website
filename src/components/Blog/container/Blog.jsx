@@ -9,7 +9,7 @@ const Blog = (props) => {
 	return (
 		<div className='blogPostWrapper'>
 			{BlogPosts.map((post) => (
-				<Post post={post} defaultImg={homeBackground} />
+				<Post post={post} defaultImg={homeBackground} isBlogPage />
 			))}
 		</div>
 	)
