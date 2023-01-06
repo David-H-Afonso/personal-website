@@ -1,7 +1,5 @@
 import React from 'react'
 import BaseBlog from '../Base/Base'
-import Code from '../../elements/Code/Code'
-import { SymbolsFunctions, Comment } from '../../elements/Code/variable'
 
 const AsyncAwait = () => {
 	const customTitle = "Master JavaScript Promises:  A Beginner's Guide to Using async/await in JavaScript"
