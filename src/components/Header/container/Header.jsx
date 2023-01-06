@@ -17,9 +17,7 @@ const Header = (props) => {
 						<p>📍 Spain, Working remote</p>
 						<a href='mailto:davidhormigafonso@gmail.com'>✉️ davidhormigafonso@gmail.com</a>
 					</div>
-					<div
-						className='social'
-						style={{ display: 'flex', alignItems: 'center', marginRight: 10 }}>
+					<div className='social' style={{ display: 'flex', alignItems: 'center', marginRight: 10 }}>
 						<a href='https://twitter.com/davidhafo' target='_blank' rel='noreferrer'>
 							<img
 								alt='twitter logo'
@@ -31,11 +29,11 @@ const Header = (props) => {
 				</div>
 				<div className='header' style={{ top: top }}>
 					<div>
-						<p className='titleHeader'>David Hormiga Afonso</p>
+						<a href='/' className='titleHeader'>
+							David Hormiga Afonso
+						</a>
 					</div>
-					<button
-						className={modal ? 'burger-open burger' : 'burger-close burger'}
-						onClick={toggleModal}>
+					<button className={modal ? 'burger-open burger' : 'burger-close burger'} onClick={toggleModal}>
 						<div></div>
 						<div></div>
 						<div></div>
@@ -43,8 +41,10 @@ const Header = (props) => {
 					<div className='menu'>
 						<a href='/'>Home</a>
 						<a href='/blog'>Blog</a>
-						<a>Portfolio</a>
-						<a className='contact'>Contact me</a>
+						{/* <a>Portfolio</a> */}
+						<a href='mailto:davidhormigafonso@gmail.com' className='contact' style={{ textDecoration: 'none' }}>
+							Contact me
+						</a>
 					</div>
 				</div>
 			</div>
@@ -52,8 +52,10 @@ const Header = (props) => {
 				<div className='mobileMenu'>
 					<a href='/'>Home</a>
 					<a href='/blog'>Blog</a>
-					<a>Portfolio</a>
-					<a className='contact'>Contact me</a>
+					{/* <a>Portfolio</a> */}
+					<a href='mailto:davidhormigafonso@gmail.com' className='contact'>
+						Contact me
+					</a>
 				</div>
 			</div>
 		</>
