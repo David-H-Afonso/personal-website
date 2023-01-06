@@ -1,16 +1,14 @@
 import React from 'react'
 import BaseBlog from '../Base/Base'
 
-console.log('Hola mundo!')
-
-const NpmYarn = (props) => {
+const NpmYarn = () => {
 	const customTitle =
 		'Discover the advantages of NPM and Yarn: A Guide to Choosing the Perfect Package Manager for Your JavaScript Project'
 
 	return (
 		<BaseBlog postInfo={postNpmYarn} customTitle={customTitle}>
 			<p>
-				If you're a <strong>JavaScript developer</strong>, you've probably heard of
+				If you're a <strong>JavaScript developer</strong>, you've probably heard of{' '}
 				<a href='https://www.npmjs.com/'>npm</a> and <a href='https://yarnpkg.com/'>yarn</a>. These are both popular
 				package managers that help you manage the dependencies of your projects, but they have some key differences that
 				you should be aware of. In this post, we're going to understand the differences between this two package

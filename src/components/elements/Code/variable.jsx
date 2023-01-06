@@ -15,7 +15,7 @@ export const Comment = ({ children }) => {
 	return <span className='comment'>// {children}</span>
 }
 
-export const SymbolsFuncitons = ({ children }) => {
+export const SymbolsFunctions = ({ children }) => {
 	return <span className='symbolsFuncitons'>{children}</span>
 }
 
