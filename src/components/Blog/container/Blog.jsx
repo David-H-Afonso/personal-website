@@ -8,7 +8,7 @@ import './Blog.css'
 const Blog = (props) => {
 	return (
 		<div className='blogPostWrapper'>
-			{BlogPosts.map((post) => (
+			{BlogPosts.reverse().map((post) => (
 				<Post post={post} defaultImg={homeBackground} isBlogPage key={post.title} />
 			))}
 		</div>
