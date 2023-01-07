@@ -1,4 +1,4 @@
-.blogPostDivVerical {
+.blogPostDiv {
 	box-shadow: 0 8px 8px 3px rgba(0, 0, 0, 0.2);
 	width: 30%;
 	height: 600px;
@@ -7,19 +7,19 @@
 }
 
 .blogPostDivHorizontal {
-	box-shadow: 0 8px 8px 3px rgba(0, 0, 0, 0.2);
-	width: 90%;
-	max-width: 1200px;
-	border-radius: 20px;
+	width: 90% !important;
+	height: 220px !important;
+	max-width: 1200px !important;
+	border-radius: 20px !important;
 }
 
-.blogPostUrlVertical {
+.blogPostUrl {
 	display: block;
 	text-decoration: none;
 	color: black;
 }
 
-.blogPostUrlVertical > img {
+.blogPostUrl > img {
 	max-width: 100%;
 	height: 320px;
 	width: 100%;
@@ -28,19 +28,19 @@
 }
 
 .blogPostUrlHorizontal {
-	display: flex;
-	flex-direction: row;
-	height: 220px;
+	display: flex !important;
+	flex-direction: row !important;
+	height: 220px !important;
 	text-decoration: none;
 	color: black;
 }
 
 .blogPostUrlHorizontal > img {
-	max-width: 100%;
-	height: 220px;
-	width: 40%;
-	object-fit: cover;
-	border-radius: 20px 0 0 20px;
+	max-width: 100% !important;
+	height: 220px !important;
+	width: 40% !important;
+	object-fit: cover !important;
+	border-radius: 20px 0 0 20px !important;
 }
 
 .blogPostMeta {
@@ -49,11 +49,22 @@
 	font-size: 0.95rem;
 }
 
+.blogPostMetaHorizontal {
+	width: 60%;
+}
+
 .blogPostMeta .title {
+	height: 70px;
 	font-family: 'Hanuman', serif;
 	font-size: 1.5rem;
 	margin-top: 30px;
 	font-weight: bold;
+	border-bottom: 1px solid #ccc;
+}
+
+.blogPostMeta .titleHorizontal {
+	height: 40px !important;
+	-webkit-line-clamp: 1 !important;
 }
 
 .logo {
@@ -61,37 +72,31 @@
 	margin-right: 15px;
 }
 
-@media screen and (max-width: 1290px) {
-	.blogPostDivVerical {
-		width: 45%;
-	}
+.excerpt {
+	height: 40px;
 }
 
-@media screen and (max-width: 1000px) {
-	.blogPostDivHorizontal {
+.authorInfo {
+	-webkit-line-clamp: 1;
+	height: 20px;
+}
+
+.ellipsis {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-line-clamp: 2;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+}
+
+@media screen and (max-width: 1290px) {
+	.blogPostDiv {
 		width: 45%;
-	}
-
-	.blogPostUrlHorizontal {
-		display: flex;
-		flex-direction: column;
-		height: 600px;
-		text-decoration: none;
-		color: black;
-	}
-
-	.blogPostUrlHorizontal > img {
-		max-width: 100%;
-		height: 320px;
-		width: 100%;
-		object-fit: cover;
-		border-radius: 20px 20px 0 0;
 	}
 }
 
 @media screen and (max-width: 780px) {
-	.blogPostDivVerical,
-	.blogPostDivHorizontal {
+	.blogPostDiv {
 		width: 90%;
 	}
 }

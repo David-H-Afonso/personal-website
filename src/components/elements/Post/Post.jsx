@@ -21,20 +21,20 @@ export const Post = (props) => {
 	}
 
 	return (
-		<div className={isBlogPage ? 'blogPostDivHorizontal' : 'blogPostDivVerical'}>
-			<a className={isBlogPage ? 'blogPostUrlHorizontal' : 'blogPostUrlVertical'} href={post.url}>
+		<div className={isBlogPage ? 'blogPostDivHorizontal blogPostDiv' : 'blogPostDiv'}>
+			<a className={isBlogPage ? 'blogPostUrlHorizontal blogPostUrl' : 'blogPostUrl'} href={post.url}>
 				<img src={post.image ? post.image : defaultImg} alt={post.title} />
-				<div className='blogPostMeta'>
-					<p className='title'>{post.title}</p>
-					<p>{post.excerpt}</p>
-					<p>
+				<div className={isBlogPage ? 'blogPostMeta blogPostMetaHorizontal' : 'blogPostMeta'}>
+					<p className={isBlogPage ? 'titleHorizontal title ellipsis' : 'title ellipsis'}>{post.title}</p>
+					<p className='ellipsis'>{post.excerpt}</p>
+					<p className='authorInfo ellipsis'>
 						{post.date} - {post.author}
 					</p>
-					<p style={{ textTransform: 'capitalize' }}>
+					<div style={{ textTransform: 'capitalize', height: 50, overflow: 'hidden' }}>
 						{post.categories.map((category, index) => (
 							<img className='logo' alt={category} src={categoryImage(category)} key={index} />
 						))}
-					</p>
+					</div>
 				</div>
 			</a>
 		</div>
