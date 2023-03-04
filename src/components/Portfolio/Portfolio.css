@@ -1,0 +1,10 @@
+.portfolioWrapper {
+	display: flex;
+	margin-top: 130px;
+	align-items: center;
+	justify-content: center;
+	gap: 2.8rem;
+	flex-wrap: wrap;
+	padding-bottom: 50px;
+	flex-direction: column;
+}
