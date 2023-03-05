@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.a8b111e4.css",
+    "main.css": "/static/css/main.e580a47f.css",
     "main.js": "/static/js/main.99a31e39.js",
     "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
     "static/media/02-array-js.jpg": "/static/media/02-array-js.51b88e47bc03edc132b9.jpg",
@@ -20,12 +20,12 @@
     "static/media/vuedex.png": "/static/media/vuedex.08f219a84deaed8e4751.png",
     "static/media/calculadora_de_interes_compuesto.png": "/static/media/calculadora_de_interes_compuesto.2f32fcdda505170c0809.png",
     "index.html": "/index.html",
-    "main.a8b111e4.css.map": "/static/css/main.a8b111e4.css.map",
+    "main.e580a47f.css.map": "/static/css/main.e580a47f.css.map",
     "main.99a31e39.js.map": "/static/js/main.99a31e39.js.map",
     "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8b111e4.css",
+    "static/css/main.e580a47f.css",
     "static/js/main.99a31e39.js"
   ]
 }
