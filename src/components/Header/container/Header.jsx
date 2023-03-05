@@ -39,6 +39,9 @@ const Header = (props) => {
 						<div></div>
 					</button>
 					<div className='menu'>
+						<a href='/'>Home</a>
+						<a href='/blog'>Blog</a>
+						<a href='/portfolio'>Portfolio</a>
 						<a href='mailto:davidhormigafonso@gmail.com' className='contact' style={{ textDecoration: 'none' }}>
 							Contact me
 						</a>
