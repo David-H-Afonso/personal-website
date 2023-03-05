@@ -4,7 +4,7 @@ yarn
 yarn build
 git add .
 git commit -m "deploy"
-git push origin master
+git push origin develop
 Set-Location ".."
 Set-Location "D:\Programacion\personal-website\deploy-personal-website"
 git pull origin master
