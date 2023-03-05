@@ -25,7 +25,7 @@
 .wrapperHome > div {
 	position: absolute;
 	width: 100%;
-	height: calc(100vh - 126px);
+	height: 80vh;
 	top: 0;
 	display: flex;
 	flex-direction: column;
