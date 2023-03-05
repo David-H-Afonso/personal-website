@@ -3,6 +3,7 @@ import './Header.css'
 
 const Header = (props) => {
 	const [modal, setModal] = useState(false)
+	// eslint-disable-next-line no-unused-vars
 	const [top, setTop] = useState('auto')
 
 	const toggleModal = () => {
@@ -52,7 +53,7 @@ const Header = (props) => {
 				<div className='mobileMenu'>
 					<a href='/'>Home</a>
 					<a href='/blog'>Blog</a>
-					{/* <a>Portfolio</a> */}
+					<a href='/portfolio'>Portfolio</a>
 					<a href='mailto:davidhormigafonso@gmail.com' className='contact'>
 						Contact me
 					</a>
