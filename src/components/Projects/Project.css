@@ -17,19 +17,23 @@
 	transform: scale(1.01, 1.01);
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1440px) {
 	.project {
-		flex: 29% 1;
+		flex: 20% 1;
 	}
 }
 
 .projectTitle {
+	width: 100%;
 	height: 86px;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	-webkit-line-clamp: 2;
-	display: -webkit-box;
+	display: block;
 	-webkit-box-orient: vertical;
+	text-align: center;
+	font-size: 1.9rem;
+	line-height: 40px;
 }
 
 .projectImage {

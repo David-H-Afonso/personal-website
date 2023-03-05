@@ -11,7 +11,7 @@ const Projects = [
 	},
 	{
 		id: 1,
-		title: 'Image searcher - React 🚧WIP🚧',
+		title: 'Image searcher - 🚧 WIP',
 		description: 'React image searcher WIP',
 		github: 'https://github.com/David-H-Afonso/image-searcher',
 		deploy: 'https://image-searcher-react-dha.netlify.app/',
@@ -19,7 +19,7 @@ const Projects = [
 	},
 	{
 		id: 2,
-		title: 'Calculadora de interés compuesto - React 🚧WIP🚧',
+		title: 'Calculadora de interés compuesto - 🚧 WIP',
 		description: 'Calculadora de interés compuesto en React WIP',
 		github: 'https://github.com/David-H-Afonso/interes-compuesto',
 		deploy: 'https://interes-compuesto-react-dha.netlify.app/',
@@ -27,7 +27,7 @@ const Projects = [
 	},
 	{
 		id: 3,
-		title: 'User Manager - React 🚧WIP🚧',
+		title: 'User Manager - 🚧 WIP',
 		description: 'React user manager WIP',
 		github: 'https://github.com/David-H-Afonso/user-manager',
 		deploy: 'https://user-manager-react-dha.netlify.app/',
@@ -35,7 +35,7 @@ const Projects = [
 	},
 	{
 		id: 4,
-		title: 'Shopping Cart - React 🚧WIP🚧',
+		title: 'Shopping Cart - 🚧 WIP',
 		description: 'React add to cart project WIP',
 		github: 'https://github.com/David-H-Afonso/shopping-cart',
 		deploy: 'https://shopping-cart-react-dha.netlify.app/',
@@ -43,7 +43,7 @@ const Projects = [
 	},
 	{
 		id: 5,
-		title: 'React Dex - React 🚧WIP🚧',
+		title: 'React Dex - 🚧 WIP',
 		description: 'React Dex project WIP',
 		github: 'https://github.com/David-H-Afonso/reactdex',
 		deploy: 'https://reactdex-react-dha.netlify.app/',
@@ -62,7 +62,7 @@ const Projects = [
 		id: 7,
 		title: 'Vue.js E-commerce Template',
 		description:
-			"Web app where I've created the basis of an e-commerce online shop, creating discount codes, a cart, products, using specific size for pictures, etc. Really useful as a base and so good for learning",
+			'Build the basis for an e-commerce: features like discount codes, cart and specific image size requirements. It was an excellent tool for learning Vue.js.',
 		github: 'https://github.com/David-H-Afonso/vue-js-store-template',
 		deploy: 'https://vue-js-store-template.netlify.app/',
 		image: require('../../assets/projects/vuejs_ecommerce_template.png'),
