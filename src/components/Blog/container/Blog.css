@@ -1,0 +1,16 @@
+.blogPostWrapper {
+	display: flex;
+	margin-top: 160px;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 2.8rem;
+	padding-bottom: 50px;
+	flex-direction: column;
+}
+
+@media screen and (max-width: 1000px) {
+	.blogPostWrapper {
+		flex-direction: row;
+	}
+}

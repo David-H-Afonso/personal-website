@@ -1,31 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.0a09bda9.css",
-    "main.js": "/static/js/main.177d9239.js",
+    "main.css": "/static/css/main.54b54111.css",
+    "main.js": "/static/js/main.2e8aee66.js",
     "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
     "static/media/02-array-js.jpg": "/static/media/02-array-js.51b88e47bc03edc132b9.jpg",
     "static/media/defaultImage.jpg": "/static/media/defaultImage.ee14a4771b9aeb776e6c.jpg",
     "static/media/homeBackground.jpg": "/static/media/homeBackground.0ef5f9a3a9be21c74e2e.jpg",
     "static/media/03-async-await.jpg": "/static/media/03-async-await.2166f5720104d7a3690e.jpg",
-    "static/media/diablo_3.png": "/static/media/diablo_3.c438e98361846e5027b3.png",
     "static/media/react_logo.png": "/static/media/react_logo.8a6fc0a24a800d1e0f4a.png",
-    "static/media/github.png": "/static/media/github.4bb497e598c121a691f7.png",
-    "static/media/batatabit.png": "/static/media/batatabit.dedc3a5d42da5c828c81.png",
     "static/media/01-yarn-npm.png": "/static/media/01-yarn-npm.eec5ab0d9f19faa32771.png",
     "static/media/http_request.png": "/static/media/http_request.948267bb441870e51c62.png",
-    "static/media/lotr-quote.png": "/static/media/lotr-quote.32e59d703287159069a0.png",
-    "static/media/react_dex.png": "/static/media/react_dex.1be975eba96d25f7ab65.png",
     "static/media/async_await.png": "/static/media/async_await.f33d8c48ce54dd9d7b9a.png",
-    "static/media/user_manager.png": "/static/media/user_manager.475a6381bfebc964deca.png",
-    "static/media/vuedex.png": "/static/media/vuedex.08f219a84deaed8e4751.png",
-    "static/media/calculadora_de_interes_compuesto.png": "/static/media/calculadora_de_interes_compuesto.2f32fcdda505170c0809.png",
     "index.html": "/index.html",
-    "main.0a09bda9.css.map": "/static/css/main.0a09bda9.css.map",
-    "main.177d9239.js.map": "/static/js/main.177d9239.js.map",
+    "main.54b54111.css.map": "/static/css/main.54b54111.css.map",
+    "main.2e8aee66.js.map": "/static/js/main.2e8aee66.js.map",
     "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a09bda9.css",
-    "static/js/main.177d9239.js"
+    "static/css/main.54b54111.css",
+    "static/js/main.2e8aee66.js"
   ]
 }
