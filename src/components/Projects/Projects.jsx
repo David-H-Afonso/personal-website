@@ -3,7 +3,7 @@ const Projects = [
 		id: 0,
 		title: 'Diablo 3 Profile Viewer',
 		description:
-			'View any Diablo 3 Profile with the region and Battle Tag with this web app created with Vue and Stylus. By default, you can use SuperRambo#2613 in EU',
+			'View any Diablo 3 Profile with the region and Battle Tag with this web app created with Vue and Stylus. By default, you can use Jokefish#2265 in EU',
 		github: 'https://github.com/David-H-Afonso/diablo-3-profile-viewer',
 		deploy: 'https://diablo-3-profile-viewer.netlify.app/',
 		image: require('../../assets/projects/diablo_3.png'),
