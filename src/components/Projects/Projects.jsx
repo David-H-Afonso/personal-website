@@ -71,7 +71,7 @@ const Projects = [
 		id: 8,
 		title: 'Batatabit Crypto Coin Web',
 		description:
-			'Static HTML and CSS page without using any preprocessor or framework, to try my cappacities doing a responsive web design.',
+			'Static landing page without using any preprocessor or framework, the goal was to try my cappacities doing a responsive web design.',
 		github: 'https://github.com/David-H-Afonso/batatabit-html-css-learning-page',
 		deploy: 'https://batatabit-html-css-learning-page.netlify.app/',
 		image: require('../../assets/projects/batatabit.png'),
