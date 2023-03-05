@@ -10,7 +10,7 @@ const Portfolio = () => {
 
 	return (
 		<div className='portfolioWrapper'>
-			<h1>Portfolio</h1>
+			<h1>Check out some of my creations</h1>
 			<div className='projectsContainer'>
 				{sortedProjects.reverse().map((project) => (
 					<Project key={project.id} project={project} />
