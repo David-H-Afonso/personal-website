@@ -2,14 +2,12 @@ import { createBrowserRouter } from 'react-router-dom'
 
 import Home from './components/Home/container/Home'
 import Blog from './components/Blog/container/Blog'
+import Portfolio from './components/Portfolio/Portfolio'
 
-// import VariablesJS, { postVariablesJS } from './components/BlogPosts/VariablesJS/VariablesJS'
-// import HelloWorld, { postHelloWorld } from './components/BlogPosts/HelloWorld/HelloWorld'
-import NpmYarn, { postNpmYarn } from './components/BlogPosts/01-yarn-npm/01-yarn-npm'
-import ArrayJS, { postArrayJS } from './components/BlogPosts/02-array-js/02-array-js'
-import AsyncAwait, { postAsyncAwait } from './components/BlogPosts/03-async-await/03-async-await'
+import { RouterBlogPosts } from './RouterBlogPosts'
+import { RouterProjects } from './RouterProjects'
 
-export default createBrowserRouter([
+const Router = [
 	{
 		path: '/',
 		element: <Home />,
@@ -18,24 +16,18 @@ export default createBrowserRouter([
 		path: '/blog',
 		element: <Blog />,
 	},
-	// {
-	// 	path: postVariablesJS.url,
-	// 	element: <VariablesJS />,
-	// },
-	// {
-	// 	path: postHelloWorld.url,
-	// 	element: <HelloWorld />,
-	// },
 	{
-		path: postNpmYarn.url,
-		element: <NpmYarn />,
+		path: '/portfolio',
+		element: <Portfolio />,
 	},
-	{
-		path: postArrayJS.url,
-		element: <ArrayJS />,
-	},
-	{
-		path: postAsyncAwait.url,
-		element: <AsyncAwait />,
-	},
-])
+]
+
+RouterBlogPosts.forEach((BlogPost) => {
+	Router.push(BlogPost)
+})
+
+RouterProjects.forEach((Project) => {
+	Router.push(Project)
+})
+
+export default createBrowserRouter(Router)
