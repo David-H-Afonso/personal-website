@@ -1,0 +1,40 @@
+.codeComponent {
+	background-color: #282c34;
+	color: #fff;
+	width: 90%;
+	max-width: 1200px;
+	text-align: left;
+	padding: 20px;
+	font-family: 'Consolas';
+	letter-spacing: 0.5px;
+	line-height: 25px;
+	box-shadow: 5px 0px 15px rgb(9 0 0 / 80%);
+	border-radius: 7px;
+}
+
+.codeComponent > .comment {
+	color: rgb(177, 177, 177);
+	font-style: italic;
+	letter-spacing: 0;
+}
+
+.codeComponent > .variable,
+.codeComponent > .variableNameConstant {
+	color: #3a8dde;
+}
+
+.codeComponent > .variableName {
+	color: lightblue;
+}
+
+.codeComponent > .stringCode {
+	color: #ce834a;
+}
+
+.codeComponent > .symbolsFuncitons {
+	color: #ebe153;
+}
+
+.codeComponent > .cssNumber {
+	color: #a1cf7d;
+}

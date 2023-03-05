@@ -1,0 +1,99 @@
+.wrapperBaseBlog {
+	margin-top: 140px;
+	padding-bottom: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.titleBaseBlog {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #e7e7e7;
+}
+
+.titleBaseBlog h1 {
+	max-width: 940px;
+	font-size: 1.8rem;
+	font-family: 'Hanuman';
+	color: #444;
+	padding: 1%;
+	text-align: center;
+}
+
+.quoteBaseBlog {
+	max-width: 940px;
+	padding: 1%;
+	font-family: 'Open Sans', serif;
+	font-size: 1.3rem;
+	color: #444;
+	text-align: center;
+}
+
+.childrenBaseBlog {
+	max-width: 940px;
+	display: flex;
+	align-items: flex-start;
+	width: 90%;
+	text-align: left;
+	margin-top: 20px;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	flex-direction: column;
+	font-family: 'Open Sans';
+}
+
+.childrenBaseBlog > p {
+	font-size: 1.2rem;
+}
+
+.childrenBaseBlog > ul > li {
+	font-size: 1rem;
+	line-height: 2rem;
+}
+
+.childrenBaseBlog > h3 {
+	font-size: 1.5rem;
+}
+
+.childrenBaseBlog > h2 {
+	font-size: 2rem;
+}
+
+.childrenBaseBlog > img {
+	width: 100%;
+}
+
+.authorAndDate {
+	display: flex;
+}
+
+.authorAndDate > span {
+	display: block;
+	font-family: 'Open Sans', serif;
+	font-size: 1rem;
+	color: #444;
+	margin-right: 20px;
+	text-align: center;
+}
+
+.imageBaseBlog {
+	max-width: 940px;
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.imageBaseBlog > img {
+	width: 100%;
+}
+
+.wrapperBaseBlog a {
+	text-decoration: none;
+	color: #3a8dde;
+	font-weight: bolder;
+}
